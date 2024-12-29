@@ -21,8 +21,19 @@
         <ul class="text-white min-h-full w-80 p-4 bg-red-950">
             <img src="{{ asset('images/logo-desktop.png') }}" alt="Descrição da Imagem" class="w-36 py-4 lg:visible">
             <!-- Sidebar content here -->
-            <x-accordion>
-                <x-slot:title>Incidentes</x-slot:title>
+            <x-accordion title="Incidentes">
+                <x-list-drawer uri="/incidents">teste</x-list-drawer>
+            </x-accordion>
+
+            <x-accordion title="Mudanças">
+                <x-list-drawer uri="/noc-incidentes">teste</x-list-drawer>
+            </x-accordion>
+
+            <x-accordion title="Problemas">
+                <x-list-drawer uri="/noc-incidentes">teste</x-list-drawer>
+            </x-accordion>
+
+            <x-accordion title="Ordens de Serviços">
                 <x-list-drawer uri="/noc-incidentes">teste</x-list-drawer>
             </x-accordion>
         </ul>
