@@ -22,19 +22,19 @@
             <img src="{{ asset('images/logo-desktop.png') }}" alt="Descrição da Imagem" class="w-36 py-4 lg:visible">
             <!-- Sidebar content here -->
             <x-accordion title="Incidentes">
-                <x-list-drawer uri="/incidents">teste</x-list-drawer>
+                <x-list-drawer uri="/incidents-n1tme">N1 TME</x-list-drawer>
             </x-accordion>
 
             <x-accordion title="Mudanças">
-                <x-list-drawer uri="/noc-incidentes">teste</x-list-drawer>
+                <x-list-drawer uri="/mudancas">vazio</x-list-drawer>
             </x-accordion>
 
             <x-accordion title="Problemas">
-                <x-list-drawer uri="/noc-incidentes">teste</x-list-drawer>
+                <x-list-drawer uri="/problemas">vazio</x-list-drawer>
             </x-accordion>
 
             <x-accordion title="Ordens de Serviços">
-                <x-list-drawer uri="/noc-incidentes">teste</x-list-drawer>
+                <x-list-drawer uri="/servicos">vazio</x-list-drawer>
             </x-accordion>
         </ul>
     </div>

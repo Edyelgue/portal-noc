@@ -2,16 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('home');
-});
-
 Route::get('/changes', function () {
     return view('changes');
 });
 
-Route::get('/incidents', function () {
-    return view('incidents');
+Route::get('/incidents-n1tme', function () {
+    return view('incidents-n1tme');
 });
 
 Route::get('/problem-investigations', function () {
@@ -21,3 +17,4 @@ Route::get('/problem-investigations', function () {
 Route::get('/work-orders', function () {
     return view('work-orders');
 });
+
