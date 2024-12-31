@@ -1,10 +1,10 @@
 import Chart from "chart.js/auto"; // Importa o Chart.js
 
-export function renderChart() {
+export function renderChart2() {
     document.addEventListener("DOMContentLoaded", function () {
-        const ctx = document.getElementById('myChart');
-        if (ctx) {
-            new Chart(ctx, {
+        const ctx2 = document.getElementById('myChart2');
+        if (ctx2) {
+            new Chart(ctx2, {
                 scales: {
                     y: {
                         beginAtZero: true,

@@ -18,7 +18,7 @@
     </div>
     <div class="drawer-side h-full">
         <label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
-        <ul class="text-white h-full w-64 sm:w-80 p-4 bg-red-950">
+        <ul class="text-white h-full w-72 sm:w-80 p-4 bg-red-950">
             <img src="{{ asset('images/logo-desktop.png') }}" alt="Descrição da Imagem" class="w-36 py-4 lg:visible">
             <!-- Sidebar content here -->
             <x-accordion title="Incidentes">

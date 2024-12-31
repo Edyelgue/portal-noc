@@ -12,16 +12,11 @@
                 1.200
             </x-card>
         </div>
-
-        <div class="w-full grid 2xl:flex">
-            <x-chart id=""></x-chart>
-            <div class="mx-1"></div>
-            <x-chart id=""></x-chart>
-        </div>
-        <div class="w-full grid 2xl:flex">
-            <x-chart id=""></x-chart>
-            <div class="mx-1"></div>
-            <x-chart id=""></x-chart>
+        
+        <div class="2xl:flex w-full">
+            <x-chart id="myChart"></x-chart>
+            <div class="mx-1 my-2"></div>
+            <x-chart id="myChart2"></x-chart>
         </div>
     </x-drawer>
 </x-page-content>
