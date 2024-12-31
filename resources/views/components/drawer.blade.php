@@ -11,7 +11,7 @@
             </label>
             <img src="{{ asset('images/logo-desktop.png') }}" alt="Descrição da Imagem" class="h-10 lg:hidden">
         </div>
-        <div class="h-screen text-center items-center justify-center p-2 lg:p-4">
+        <div class="h-screen text-center items-center justify-center p-2 lg:p-2 hover:overflow-scroll">
             <!-- Page content here -->
             {{ $slot }}
         </div>

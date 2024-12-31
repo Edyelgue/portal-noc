@@ -6,14 +6,15 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class OneGraph extends Component
+class Chart extends Component
 {
+    public $id;
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct($id)
     {
-        //
+        $this->id = $id;
     }
 
     /**
@@ -21,6 +22,6 @@ class OneGraph extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.one-graph');
+        return view('components.chart');
     }
 }

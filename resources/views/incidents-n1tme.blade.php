@@ -2,8 +2,19 @@
     <x-drawer>
         <x-title-primary>NOC Incidentes</x-title-primary>
         <x-modal></x-modal>
-        <x-one-graph>
-            <canvas id="myChart"></canvas>
-        </x-one-graph>
+        <div class="w-full grid 2xl:flex">
+            <x-chart id=""></x-chart>
+            <x-chart id=""></x-chart>
+        </div>
+
+        <div class="w-full grid 2xl:flex">
+            <x-chart id=""></x-chart>
+            <x-chart id=""></x-chart>
+        </div>
+
+        <div class="w-full grid 2xl:flex">
+            <x-chart id=""></x-chart>
+            <x-chart id=""></x-chart>
+        </div>
     </x-drawer>
 </x-page-content>

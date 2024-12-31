@@ -1,4 +1,4 @@
-<div class="flex justify-items-end">
+<div class="flex justify-items-end xl:ml-1 mb-1">
     <!-- You can open the modal using ID.showModal() method -->
     <button class="p-2 rounded-lg bg-red-800 btn-ghost hover:bg-red-950" onclick="my_modal_4.showModal()">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="white" class="size-4">
