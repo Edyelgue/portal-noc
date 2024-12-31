@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light" class="h-screen">
+<html lang="en" data-theme="light" class="h-full">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>Dashboards NOC</title>
 </head>
-<body>
+<body class="h-full">
     {{ $slot }}
 </body>
 </html>

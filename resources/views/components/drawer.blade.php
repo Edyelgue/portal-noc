@@ -1,4 +1,4 @@
-<div class="drawer lg:drawer-open">
+<div class="drawer lg:drawer-open h-full">
     <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content flex flex-col justify-items-start">
         <div class="flex items-center bg-red-900">
@@ -11,18 +11,19 @@
             </label>
             <img src="{{ asset('images/logo-desktop.png') }}" alt="Descrição da Imagem" class="h-10 lg:hidden">
         </div>
-        <div class="h-screen text-center items-center justify-center p-2 lg:p-2 hover:overflow-scroll">
+        <div class="h-full text-center items-center justify-center p-2 lg:p-2">
             <!-- Page content here -->
             {{ $slot }}
         </div>
     </div>
-    <div class="drawer-side">
+    <div class="drawer-side h-full">
         <label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
-        <ul class="text-white min-h-full w-80 p-4 bg-red-950">
+        <ul class="text-white h-full w-64 sm:w-80 p-4 bg-red-950">
             <img src="{{ asset('images/logo-desktop.png') }}" alt="Descrição da Imagem" class="w-36 py-4 lg:visible">
             <!-- Sidebar content here -->
             <x-accordion title="Incidentes">
-                <x-list-drawer uri="/incidents-n1tme">N1 TME</x-list-drawer>
+                <x-list-drawer uri="/incidents-n1tme">NOC Incidentes</x-list-drawer>
+                <x-list-drawer uri="/incidents-n1tme">NOC N2</x-list-drawer>
             </x-accordion>
 
             <x-accordion title="Mudanças">
