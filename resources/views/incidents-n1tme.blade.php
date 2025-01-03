@@ -2,7 +2,12 @@
     <x-drawer>
         <x-title-primary>NOC Incidentes</x-title-primary>
         {{-- FILTROS --}}
-        <x-modal></x-modal>
+        <x-modal>
+            <x-calendar></x-calendar>
+            <x-turn></x-turn>
+            <x-team></x-team>
+            <x-level></x-level>
+        </x-modal>
         {{-- ENDFILTROS --}}
 
         <div class="flex mt-2">
@@ -19,6 +24,12 @@
             <x-chart id="myChart"></x-chart>
             <div class="mx-1 my-2"></div>
             <x-chart id="myChart2"></x-chart>
+        </div>
+
+        <div class="2xl:flex mt-2">
+            <x-chart id=""></x-chart>
+            <div class="mx-1 my-2"></div>
+            <x-chart id=""></x-chart>
         </div>
     </x-drawer>
 </x-page-content>
