@@ -23,7 +23,7 @@
             <!-- Sidebar content here -->
             <x-accordion title="Cadastros">
                 <x-list-drawer uri="/create">Cadastrar</x-list-drawer>
-                <x-list-drawer uri="">Listar</x-list-drawer>
+                <x-list-drawer uri="/list-analists">Listar</x-list-drawer>
             </x-accordion>
 
             <x-accordion title="Incidentes">

@@ -6,6 +6,10 @@ Route::get('/create', function () {
     return view('create');
 });
 
+Route::get('/list-analists', function () {
+    return view('list-analists');
+});
+
 Route::get('/changes', function () {
     return view('changes');
 });

@@ -1,9 +1,8 @@
 <section class="h-full">
+    <x-title-primary>Cadastrar</x-title-primary>
     <form action="" class="card border border-red-950">
         <div class="rounded-t-2xl">
-            <h1 class="text-xl sm:text-2xl md:text-4xl font-bold title-font mb-2 text-red-800 text-center py-4">
-                Cadastrar</h1>
-            <p class="border border-red-950"></p>
+            <!-- <p class="border border-red-950"></p> -->
         </div>
         <div class="mt-4">
             <div class="sm:flex">
