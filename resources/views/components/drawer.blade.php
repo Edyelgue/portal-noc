@@ -21,6 +21,11 @@
         <ul class="text-white h-full w-72 sm:w-80 p-4 bg-red-950">
             <img src="{{ asset('images/logo-desktop.png') }}" alt="Descrição da Imagem" class="w-36 py-4 lg:visible">
             <!-- Sidebar content here -->
+            <x-accordion title="Cadastros">
+                <x-list-drawer uri="/create">Cadastrar</x-list-drawer>
+                <x-list-drawer uri="">Listar</x-list-drawer>
+            </x-accordion>
+
             <x-accordion title="Incidentes">
                 <x-list-drawer uri="/incidents-n1tme">NOC Incidentes</x-list-drawer>
                 <x-list-drawer uri="/incidents-n1tme">NOC N2</x-list-drawer>

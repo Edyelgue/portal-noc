@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+Route::get('/create', function () {
+    return view('create');
+});
+
 Route::get('/changes', function () {
     return view('changes');
 });
@@ -17,4 +21,3 @@ Route::get('/problem-investigations', function () {
 Route::get('/work-orders', function () {
     return view('work-orders');
 });
-
