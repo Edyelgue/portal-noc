@@ -25,11 +25,5 @@
             <div class="mx-1 my-2"></div>
             <x-chart id="myChart2"></x-chart>
         </div>
-
-        <div class="2xl:flex mt-2">
-            <x-chart id=""></x-chart>
-            <div class="mx-1 my-2"></div>
-            <x-chart id=""></x-chart>
-        </div>
     </x-drawer>
 </x-page-content>
