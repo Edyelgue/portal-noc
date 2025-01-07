@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CreateController;
+
+Route::post('/create', [CreateController::class, 'store']);
 
 Route::get('/create', function () {
     return view('create');
